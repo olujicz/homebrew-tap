@@ -29,4 +29,4 @@ Report packaging problems in this repository's issues. For app help, see [Storm 
 
 ## Maintaining the cask
 
-After publishing an app release, update `version` and `sha256` in `Casks/storm-tunnel.rb`. The version includes the marketing version and build number, matching the Sparkle appcast. Verify the public DMG, cask metadata, livecheck, and installation before publishing a tap update. Keep the website's download instructions aligned.
+After publishing an app release, package its signed app with its notarization ticket in a ZIP named `StormTunnel-VERSION-BUILD.zip`. Upload it to `updates.storm-tunnel.app` before updating the cask. Update `version` and `sha256` in `Casks/storm-tunnel.rb`. The version includes the marketing version and build number, matching the Sparkle appcast. Verify the public ZIP, cask metadata, livecheck, and installation before publishing a tap update. Keep the website's download instructions aligned.
