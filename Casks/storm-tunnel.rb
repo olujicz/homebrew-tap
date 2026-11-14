@@ -1,6 +1,6 @@
 cask "storm-tunnel" do
-  version "0.9.3,10"
-  sha256 "6e1b53fb8434551ea6596d657794029336541c952adfaf459e13730e4576774f"
+  version "0.9.4,11"
+  sha256 "bcfeab623fd52786c42a172d0d5bc47752508ed740d8ee0269b38dd35c4912aa"
 
   url "https://updates.storm-tunnel.app/StormTunnel-#{version.csv.first}-#{version.csv.second}.zip?download=1"
   name "Storm Tunnel"
