@@ -1,12 +1,12 @@
 # Storm Tunnel Homebrew tap
 
-Install [Storm Tunnel](https://storm-tunnel.app/), a native macOS menu-bar app for AWS Session Manager and SSH tunnels.
+Install [Storm Tunnel](https://storm-tunnel.app/?ref=homebrew), a native macOS menu-bar app for AWS Session Manager and SSH tunnels.
 
 ```sh
 brew install --cask olujicz/tap/storm-tunnel
 ```
 
-Requires macOS 15 or later, on Apple silicon or Intel. One tunnel at a time is free without an account or card. See [pricing](https://storm-tunnel.app/pricing/) for optional Pro features.
+Requires macOS 15 or later, on Apple silicon or Intel. One tunnel at a time is free without an account or card. See [pricing](https://storm-tunnel.app/pricing/?ref=homebrew) for optional Pro features.
 
 AWS tunnels also need AWS CLI v2, the Session Manager plugin, and an authorized SSM-managed instance that can reach the destination. Follow the [setup guide](https://storm-tunnel.app/docs/getting-started/).
 
