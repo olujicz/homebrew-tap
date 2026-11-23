@@ -32,6 +32,7 @@ Report packaging problems in this repository's issues. For app help, see [Storm 
 Also in this tap: [OmniKeys](https://github.com/olujicz/omnikeys), a floating cheat sheet for your OmniWM keyboard shortcuts. Requires macOS 14 or later.
 
 ```sh
+brew trust --cask olujicz/tap/omnikeys   # Homebrew 7 and later
 brew install --cask olujicz/tap/omnikeys
 ```
 
