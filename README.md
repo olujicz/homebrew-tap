@@ -27,6 +27,14 @@ The cask has no data-removal hooks. Normal uninstall leaves saved settings and K
 
 Report packaging problems in this repository's issues. For app help, see [Storm Tunnel support](https://storm-tunnel.app/contact/).
 
+## OmniKeys
+
+Also in this tap: [OmniKeys](https://github.com/olujicz/omnikeys), a floating cheat sheet for your OmniWM keyboard shortcuts. Requires macOS 14 or later.
+
+```sh
+brew install --cask olujicz/tap/omnikeys
+```
+
 ## Maintaining the cask
 
 After publishing an app release, package its signed app with its notarization ticket in a ZIP named `StormTunnel-VERSION-BUILD.zip`. Upload it to `updates.storm-tunnel.app` before updating the cask. Update `version` and `sha256` in `Casks/storm-tunnel.rb`. The version includes the marketing version and build number, matching the Sparkle appcast. Verify the public ZIP, cask metadata, livecheck, and installation before publishing a tap update. Keep the website's download instructions aligned.
