@@ -3,6 +3,7 @@
 Install [Storm Tunnel](https://storm-tunnel.app/?ref=homebrew), a native macOS menu-bar app for AWS Session Manager and SSH tunnels.
 
 ```sh
+brew trust --cask olujicz/tap/storm-tunnel   # Homebrew 7 and later
 brew install --cask olujicz/tap/storm-tunnel
 ```
 
